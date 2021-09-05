@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>watchitiwithme! </title>
+    <link rel="icon" type="image/svg" href="../res/watch.svg">
+    <link rel="prefetch" href="res/eopen.svg">
+  </head>
+
+  <script type="text/javascript">
+    const meeting = window.location.href.match(/#(.*)/) ? window.location.href.match(/#(.*)/)[1] : undefined;
+  </script>
+
+  <body>
+    <div id="banner">
+      <div id="banner-text"><img onclick="colorMode();" id="logo" src="res/logo1.svg">watchitiwithme!</div>
+    </div>
+    <div id="room-container">
+      <div id="window-container">
+        <div id="video-container">
+          <video id="player" onerror="console.log('Error Loading Video!'); this.onerror=null; this.crossOrigin='';" controls playsinline>
+          </video>
+        </div>
+        <div id="chat-container">
+          <div id="e-container">
+            <div id="e-list"></div>
+          </div>
+          <div id="chat-out">
+            <div class="chat-item"><strong>Welcome to the room~<br></strong></div>
+          </div>
+          <div id="chat-in-container">
+            <form autocomplete="off" id="chat" action="javascript:say()">
+              <label for="chat-in"></label>
+              <input placeholder="send a message" type="text" name="chat-in" id="chat-in" class="border-focus" maxlength="280">
+              <div id="e-button" onclick="eListC.style.display=eListC.style.display !=='grid' ? 'grid' : 'none'"></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="join-container">
+      <div id="join-box">
+        <div class="join-item" id="j-loading">
+          <div id="j-loading-text">
+            Loading...
+          </div>
+          <div id="j-loading-item">
+
+          </div>
+        </div>
+        <div class="join-item" id="j-failed">
+          <div id="j-failed-text">
+            Connection failed!<br>Please try again.<br><br><br><br><br><small>Room could not be accessed :(</small>
+          </div>
+
+        </div>
+        <div class="join-item" id="j-create">
+          <form autocomplete="off" class="j-form" action="javascript:connect()">
+            <label for="enter-url"><strong>Enter the Video URL</strong><br><small>This only works with direct links<br><span class="xs">(so no youtube videos)</span></small></label>
+            <input required type="url" name="enter-url" class="text-input" id="enter-url" maxlength="4096">
+
+            <div class="check-container">
+              <input type="checkbox" name="direct-check" class="check-box" id="direct-check" value="Direct">
+              <label class="check-text" for="direct-check">Use Direct Source</label>
+            </div>
+
+            <div class="check-container">
+              <input type="checkbox" name="cc-check" class="check-box" id="cc-check" value="CC" onclick="toggleCCInput();">
+              <label class="check-text" for="cc-check">Use Captions</label>
+            </div>
+
+            <label for="enter-cc"><small>Enter the CC Url<br><span class="xs">(.srt only please!)</span></small></label>
+            <input disabled type="url" name="enter-cc" class="text-input" id="enter-cc" maxlength="4096">
+
+            <label for="submit-url"></label>
+            <input type="submit" name="submit-url" class="submit-button" id="submit-url" value="Create Room">
+          </form>
+        </div>
+        <div class="join-item" id="j-name">
+          <form autocomplete="off" class="j-form" action="javascript:join()">
+            <label id="welcome-room" for="enter-name"><strong style="font-size: 18px">Enter Your Name</strong><br><small>Others will see this name</small><br></label>
+            <input required type="text" name="enter-name" class="text-input" id="enter-name" maxlength="15"><br>
+            <label for="submit-name"></label>
+            <input type="submit" name="submit-name" class="submit-button" id="submit-name" value="Join Room">
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+
+  <script src="script.js"></script>
+
+</html>

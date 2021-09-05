@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <circle style="stroke: rgb(108, 15, 150); stroke-width: 41px; fill: rgb(255, 255, 255);" cx="249.724" cy="250" r="212.47"/>
+  <path style="stroke: rgb(108, 15, 150); stroke-width: 15px; fill: rgb(108, 15, 150);" d="M 135.35 300.325 C 212.386 321.824 288.884 321.669 364.844 299.86 C 384.997 294.074 354.381 363.422 354.381 363.422 C 354.381 363.422 348.194 421.171 254.631 421.923 C 139.775 422.846 139.894 363.422 139.894 363.422 C 139.894 363.422 117.513 321.752 119.86 302.851 C 120.507 297.638 125.671 296.796 135.35 300.325 Z"/>
+  <path style="fill: rgb(255, 255, 255); stroke: rgb(255, 255, 255); stroke-width: 21px;" d="M 139.894 324.63 C 213.695 340.659 287.862 340.11 362.395 322.981 C 365.936 322.168 356.947 332.011 356.947 332.011 C 356.947 332.011 328.072 358.048 249.867 358.048 C 169.627 358.048 147.124 333.882 147.124 333.882 C 147.124 333.882 140.307 328.617 139.894 324.63 Z"/>
+  <path style="fill: none; stroke: rgb(108, 15, 150); stroke-linecap: round; stroke-linejoin: round; stroke-width: 34px;" d="M 90.343 209.243 C 106.928 169.868 137.025 144.01 180.636 131.668"/>
+  <path style="fill: none; stroke: rgb(108, 15, 150); stroke-linecap: round; stroke-linejoin: round; stroke-width: 34px;" d="M 319.128 131.668 C 335.713 171.043 365.81 196.901 409.421 209.243" transform="matrix(-1, 0, 0, -1, 728.549011, 340.91098)"/>
+  <g transform="matrix(1.12487, 0, 0, 1.12487, -28.392851, -29.92787)" style="">
+    <circle style="fill: rgb(255, 255, 255); stroke-width: 34px; stroke-linecap: round; stroke-linejoin: round; stroke: rgb(108, 15, 150);" cx="127.514" cy="239.673" r="83.26"/>
+    <circle style="fill: rgb(255, 255, 255); stroke-width: 34px; stroke-linecap: round; stroke-linejoin: round; stroke: rgb(108, 15, 150);" cx="127.514" cy="239.673" r="13.972"/>
+  </g>
+  <path d="M 80.826 257.837 C 92.86 235.499 104.922 235.499 117.013 257.837 L 159.939 337.141 C 165.012 346.514 165.911 363.701 165.911 365.911 C 165.911 402.886 135.936 432.861 98.961 432.861 C 61.986 432.861 32.011 402.886 32.011 365.911 C 32.011 363.511 33.225 346.198 38.104 337.141 L 80.826 257.837 Z" style="stroke-miterlimit: 7; stroke-linecap: round; stroke-linejoin: round; stroke: rgb(108, 15, 150); fill: rgb(255, 255, 255); stroke-width: 34px;" transform="matrix(0.96427, 0.264922, -0.264922, 0.96427, 92.807228, -14.176875)"/>
+  <g transform="matrix(1.12487, 0, 0, 1.12487, 241.467087, -29.92787)" style="">
+    <circle style="fill: rgb(255, 255, 255); stroke-width: 34px; stroke-linecap: round; stroke-linejoin: round; stroke: rgb(108, 15, 150);" cx="127.514" cy="239.673" r="83.26"/>
+    <circle style="fill: rgb(255, 255, 255); stroke-width: 34px; stroke-linecap: round; stroke-linejoin: round; stroke: rgb(108, 15, 150);" cx="127.514" cy="239.673" r="13.972"/>
+  </g>
+  <path d="M 382.668 416.108 C 394.702 438.446 406.764 438.446 418.855 416.108 L 461.782 336.804 C 466.855 327.431 467.754 310.244 467.754 308.034 C 467.754 271.059 437.778 241.084 400.803 241.084 C 363.828 241.084 333.853 271.059 333.853 308.034 C 333.853 310.434 335.067 327.747 339.946 336.804 L 382.668 416.108 Z" style="stroke-miterlimit: 7; stroke-linecap: round; stroke-linejoin: round; stroke: rgb(108, 15, 150); fill: rgb(255, 255, 255); stroke-width: 34px;" transform="matrix(-0.96427, 0.264922, -0.264922, -0.96427, 876.557678, 555.723816)"/>
+</svg>

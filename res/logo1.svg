@@ -1,0 +1,26 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+
+ <g>
+  <title>background</title>
+  <g id="canvasGrid" display="none">
+   <rect id="svg_2" width="100%" height="100%" x="0" y="0" stroke-width="0" fill="url(#gridpattern)"/>
+  </g>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <path fill="none" stroke="#ffffff" stroke-width="22" stroke-opacity="null" fill-opacity="null" id="svg_16"/>
+  <g transform="rotate(-135 421.1126098632812,301.5244140625) " id="svg_5">
+   <rect transform="rotate(-240 421.11260986328125,301.9906005859375) " fill="none" stroke-width="57" x="292.1498" y="121.4188" width="257.92563" height="361.14359" id="svg_1" stroke="#ffffff"/>
+   <rect stroke="#ffffff" transform="rotate(-180 447.57110595703125,391.1476135253906) matrix(0.4738524556159974,-0.8014545315067058,0.8207365284181837,0.4627199895086421,41.174303457642054,414.35448951655826) " fill="#ffffff" stroke-width="57" x="235.99395" y="310.28086" width="0.26723" height="97.10385" id="svg_8" opacity="0.99"/>
+   <rect stroke="#ffffff" transform="rotate(-180 494.60260009765625,311.6002807617187) matrix(0.4738524556159974,-0.8014545315067058,0.8207365284181837,0.4627199895086421,-52.89055064242115,414.3544859111704) " fill="#ffffff" stroke-width="57" x="384.87716" y="396.23858" width="0.26723" height="97.10385" id="svg_7" opacity="0.99"/>
+   <path stroke="#ffffff" fill="#ffffff" stroke-width="57" d="m321.68061,256.90293l51.15703,-89.52477l51.15703,89.52477l-102.31406,0z" id="svg_10" transform="rotate(-150 372.837646484375,212.14054870605466) "/>
+   <path stroke="#ffffff" fill="none" stroke-width="57" stroke-opacity="null" fill-opacity="null" d="m515.65227,90.82874l0,177.39134l102.60872,0" id="svg_21" transform="rotate(-180 566.9566650390625,179.5244140625) "/>
+   <path stroke="#ffffff" fill="none" stroke-width="57" stroke-opacity="null" fill-opacity="null" d="m230.65227,334.82874l0,177.39134l102.60872,0" id="svg_3"/>
+  </g>
+ </g>
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="602" width="802" y="-1" x="-1"/>
+ </g>
+</svg>
