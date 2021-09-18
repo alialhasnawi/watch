@@ -1,5 +1,7 @@
 # watch
 
+###### *this project is in the process of being refactored*
+
 ### **[watchitiwithme!](https://alialhasnawi.github.io/watch/)**
 *Video webscraper and chat party*
 - Uses the [puppeteer](https://pptr.dev/) library for scraping.
