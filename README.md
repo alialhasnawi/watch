@@ -1,6 +1,6 @@
 # watch
 
-# This project is broken due to the Heroku free tier shut down. It is being rewritten from scratch and will be redeployed later.
+## This project is broken due to the Heroku free tier shut down. It is being rewritten from scratch and will be redeployed later.
 
 ###### *this project is in the process of being refactored*
 
